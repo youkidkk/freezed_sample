@@ -4,7 +4,8 @@
     {
       "name": "freezed_sample",
       "request": "launch",
-      "type": "dart"
+      "type": "dart",
+      "internalConsoleOptions": "openOnSessionStart"
     }
   ]
 }
