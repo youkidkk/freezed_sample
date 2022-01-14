@@ -19,10 +19,9 @@ linter:
   rules:
     prefer_double_quotes: true
     require_trailing_commas: true
-# analyzer:
-#   exclude:
-#     - path/to/excluded/files/**
-
+analyzer:
+  exclude:
+    - "**/*.g.dart"
 # For more information about the core and recommended set of lints, see
 # https://dart.dev/go/core-lints
 
