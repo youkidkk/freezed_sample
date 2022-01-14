@@ -7,3 +7,4 @@ build/
 
 # Generated Files by freezed
 **/*.freezed.dart
+**/*.g.dart
