@@ -4,6 +4,7 @@ import "basic/basic.dart";
 import "json/json_model.dart";
 import "list/list_model.dart";
 import "map/map_model.dart";
+import "objin/object_in.dart";
 
 void main(List<String> arguments) {
   // 基本型
@@ -35,4 +36,12 @@ void main(List<String> arguments) {
   );
   print(mapModel);
   print(mapModel.toJson());
+
+  // Object内包型
+  final objectIn = ObjectIn(
+    dateTime: DateTime.now(),
+    basic: Basic(number: 111, text: "Text"),
+  );
+  print(objectIn);
+  print(objectIn.toJson());
 }
