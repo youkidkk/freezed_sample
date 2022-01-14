@@ -2,6 +2,7 @@ import "dart:convert";
 
 import "basic/basic.dart";
 import "json/json_model.dart";
+import "list/list_model.dart";
 
 void main(List<String> arguments) {
   // 基本型
@@ -17,4 +18,9 @@ void main(List<String> arguments) {
     ),
   );
   print(jsonModel);
+
+  // List型
+  final listModel = ListModel(list: ["text1", "text2", "text3"]);
+  print(listModel);
+  print(listModel.toJson());
 }
