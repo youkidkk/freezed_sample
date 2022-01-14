@@ -1,7 +1,7 @@
 import "package:freezed_annotation/freezed_annotation.dart";
 
 part "basic.freezed.dart";
-part 'basic.g.dart';
+part "basic.g.dart";
 
 @freezed
 class Basic with _$Basic {
